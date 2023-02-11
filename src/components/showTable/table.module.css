@@ -1,0 +1,207 @@
+@media only screen and (min-width:600px) {
+
+    .maiContainer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table>tr {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #f0f0f0;
+    }
+    .details{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    th {
+        /* border-left: 1px solid #f0f0f0; */
+        text-align: left;
+        padding: 8px;
+        width: 24%;
+        margin-left: 7px;
+        background-color: #ffff;
+    }
+
+    td {
+        border-left: 2px solid #ffff;
+        text-align: left;
+        padding: 8px;
+        width: 24%;
+        margin-left: 6px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    .btnCtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .btnCtn .approve {
+        background-color: #00cc00;
+        border: 1px solid #00cc00;
+        color: #ffff;
+        border-radius: 4px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .btnCtn .reject {
+        background-color: #cc0000;
+        border: 1px solid #cc0000;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        padding: 10px;
+    }
+
+    .approved {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .approved .approvedSuccess {
+        background-color: #24b124;
+        border: 1px solid #24b124;
+        color: #ffff;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-right: 4px;
+        padding: 10px;
+    }
+
+    .rejected {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rejected .rejectfail {
+        background-color: #cc0000;
+        border: 1px solid #cc0000;
+        color: #ffff;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-right: 4px;
+        padding: 10px;
+    }
+
+    .imgCtn {
+        display: flex;
+    }
+
+    .imgCtn img {
+        width: 11vw;
+    }
+
+    .newContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstCtn {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        width: 96%;
+        margin: 30px;
+        border-radius: 4px;
+        padding-bottom: 10px;
+        background-color: #fff;
+    }
+
+    .hrr {
+        border: 1px solid #ddd;
+        align-items: center;
+        width: 80%;
+        margin-left: 12px;
+    }
+
+    .searchContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:46%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .tblCtn {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        width: 96%;
+        margin: 30px;
+        border-radius: 4px;
+        padding-bottom: 10px;
+        background-color: #fff;
+    }
+
+    .actionCtn {
+    }
+
+    .filterCtn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        border-radius: 2px;
+    }
+
+    .filterCtn h2 {
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .filterCtn img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .searchBoxCtn {
+        display: flex;
+    }
+
+    .searchBoxCtn button {
+        margin-top: 16px;
+        background-color: #24b124;
+        border: 1px solid #24b124;
+        color: #ffff;
+        border-radius: 4px;
+        font-family: sans-serif;
+        font-weight: 600;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .actionCtn label{
+        margin-bottom: 10px;
+    }
+    .lableName{
+        margin-top: 0%;
+        margin-bottom:4px;
+    }
+}
