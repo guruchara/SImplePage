@@ -10,10 +10,15 @@ const HomePageMobile = () => {
     const navigate = useNavigate();
 
     const onSubmit = (data) => {
-        localStorage.setItem('data', JSON.stringify(data))
+
+        var showList = JSON.parse(localStorage.getItem('data') || "[]");
+
+        showList.push(data);
+        localStorage.setItem("data", JSON.stringify(showList));
+
         alert('Thankyou \n Data Submitted Successfully')
-        // reset();
     }
+    
     const handleOnlyNumber = (event) => {
         if (!/[0-9]/.test(event.key)) {
             event.preventDefault();

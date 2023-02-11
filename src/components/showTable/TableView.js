@@ -6,10 +6,8 @@ const TableView = () => {
     let columnArr = ['sr No.', 'Name', 'Email', 'Pincode', 'PhoneNumber']
 
     let count = 1;
-    const localData = JSON.parse(localStorage.getItem('data'))
+    var dataArr = JSON.parse(localStorage.getItem('data') || "[]");
 
-    let dataArr = [];
-    dataArr.push(localData)
 
     return (
 
